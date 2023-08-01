@@ -84,17 +84,17 @@ private extension UserInfoView {
     NSLayoutConstraint.activate([
       nameLabel.topAnchor.constraint(equalTo: profileImageView.bottomAnchor, constant: 16),
       nameLabel.centerXAnchor.constraint(equalTo: centerXAnchor)
-    ])
+      ])
     // professionLabel
     NSLayoutConstraint.activate([
       professionLabel.topAnchor.constraint(equalTo: nameLabel.bottomAnchor, constant: 4),
       professionLabel.centerXAnchor.constraint(equalTo: centerXAnchor)
-    ])
+      ])
     // locationLabel
     NSLayoutConstraint.activate([
       locationLabel.topAnchor.constraint(equalTo: professionLabel.bottomAnchor, constant: 2),
       locationLabel.centerXAnchor.constraint(equalTo: centerXAnchor)
-    ])
+      ])
   }
 
   func setupUI() {
